@@ -43,7 +43,7 @@ module.exports = () => {
 
   <h2>What is a Sandwich Sudoku</h2>
 
-  <p>Sandwich Sudoku is a Sudoku variant where you are given fewer starting numbers within the grid, but have additional information around the outside of the grid. These additional clues show the sums of the numbers sandwiched between the 1 and the 9 in each given row or column.</p>
+  <p>Sandwich Sudoku, also know as Between 1 and 9 Sudoku, is a Sudoku variant where you are given fewer starting numbers within the grid, but have additional information around the outside of the grid. These additional clues show the sums of the numbers sandwiched between the 1 and the 9 in each given row or column.</p>
 
   <h2>Articles about Sandwich Sudoku</h2>
 
