@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const page = require("./index.js");
 
-const renderSite = (data) => `
+const renderSite = (page) => `
 <html>
   <head>
     <meta charset="utf-8">
@@ -10,6 +10,7 @@ const renderSite = (data) => `
     <title>Sandwich Sudoku</title>
     <meta name="description" content="A site about a Sudoku variant" />
   </head>
+  
   <body>
     <main>
       ${page}
@@ -19,7 +20,7 @@ const renderSite = (data) => `
 `;
 
   require("mkdirp")("./public", () => {
-    const site = renderSite(data);
+    const site = renderSite(page);
     console.log(site);
   fs.writeFileSync("./public/index.html", site);
 });

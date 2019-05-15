@@ -14,7 +14,7 @@ module.exports = `
   <h2>Links to problems</h2>
 
   <ul>
-    <li>https://uploads.guim.co.uk/2019/05/01/Sandwich_sudoku.png - <a href="https://www.theguardian.com/science/2019/may/06/did-you-solve-it-sandwich-sudoku-a-new-puzzle-goes-viral">Answers</a></li>
+    <li><a href="https://uploads.guim.co.uk/2019/05/01/Sandwich_sudoku.png">https://uploads.guim.co.uk/2019/05/01/Sandwich_sudoku.png</a> - <a href="https://www.theguardian.com/science/2019/may/06/did-you-solve-it-sandwich-sudoku-a-new-puzzle-goes-viral">Answers</a></li>
   </ul>
 
   <h2>Cheatsheet</h2>
