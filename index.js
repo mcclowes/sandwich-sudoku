@@ -86,12 +86,6 @@ module.exports = () => {
   <h3>6x6 Sandiwch Sudoku -> 1-6</h3>
 
   <div class="grid">
-    <div class="grid-cell">
-      <h4>0</h4>
-
-      <p>The 1 and 6 are adjacent</p>
-    </div>
-
     ${
       secondaryAnswers.map((answer, i) => {
         return i === 0 || (answer && answer.length > 0)
