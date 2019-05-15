@@ -12,7 +12,7 @@ function getCombinations(chars) {
   return result;
 }
 
-const generateAnswers = (target) => {
+const generateAnswers = (values, target) => {
   const validNumbers = values.filter(x => x <= target)
   
   const combinations = getCombinations(validNumbers)
@@ -32,12 +32,13 @@ const generateAnswers = (target) => {
 }
 
 const primaryValues = Array(9 - 2).fill(0).map((x, i) => { return i + 2})
-const primaryAnswers = Array(35).fill(0).map((x, i) => generateAnswers(primaryValues, i + 1))
+const primaryAnswers = Array(36).fill(0).map((x, i) => generateAnswers(primaryValues, i + 1))
 
 const secondaryValues = Array(6 - 2).fill(0).map((x, i) => { return i + 2})
 const secondaryAnswers = Array(15).fill(0).map((x, i) => generateAnswers(secondaryValues, i + 1))
 
-module.exports = `
+module.exports = () => {
+  return `
   <h1>Sandwich Sudoku</h1>
 
   <h2>What is a Sandwich Sudoku</h2>
@@ -61,32 +62,24 @@ module.exports = `
   <h3>9x9 Sandiwch Sudoku -> 1-9</h3>
 
   <div class="grid">
-    <div class="grid-cell">
-      <h4>0</h4>
-
-      <p>The 1 and 9 are adjacent</p>
-    </div>
-
     ${
-      () => {
-        primaryAnswers.map((answer, i) => {
-          return `
+      primaryAnswers.map((answer, i) => {
+        return i === 0 || (answer && answer.length > 0)
+          ? `
             <div class="grid-cell">
-              <h4>${i}</h4>
+              <h4>${i === 0 ? i : i+1}</h4>
 
               <ul>
                 ${
-                  (answer) => { 
-                    return answer
-                      ? `<li>${answer}</li>`
-                      : "<li>None</li>"
-                  }
+                   i === 0
+                    ? "<p>The 1 and 9 are adjacent</p>"
+                    : answer.map( x=>`<li>${x.join(', ')}</li>`).join('')
                 }
               </ul>
             </div>
           `
-        })
-      }
+          : ''
+      }).join('')
     }
   </div>
   
@@ -100,25 +93,24 @@ module.exports = `
     </div>
 
     ${
-      () => {
-        secondaryAnswers.map((answer, i) => {
-          return `
+      secondaryAnswers.map((answer, i) => {
+        return i === 0 || (answer && answer.length > 0)
+          ? `
             <div class="grid-cell">
-              <h4>${i}</h4>
+              <h4>${i === 0 ? i : i+1}</h4>
 
               <ul>
                 ${
-                  (answer) => { 
-                    return answer
-                      ? `<li>${answer}</li>`
-                      : "<li>None</li>"
-                  }
+                   i === 0
+                    ? "<p>The 1 and 9 are adjacent</p>"
+                    : answer.map( x=>`<li>${x.join(', ')}</li>`).join('')
                 }
               </ul>
             </div>
           `
-        })
-      }
+          : ''
+      }).join('')
     }
   </div>
 `
+}

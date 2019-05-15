@@ -14,7 +14,7 @@ const renderSite = (page) => `
   
   <body>
     <main>
-      ${page}
+      ${page()}
     </main>
   </body>
 </html>
