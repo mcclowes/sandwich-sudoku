@@ -1,0 +1,12 @@
+{
+  "name": "sandwich-sudoku",
+  "version": 2,
+  "alias": ["sandwichsudoku.com"],
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "public" } }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "sandwich-sudoku",
+  "version": "0.0.1",
+  "description": "A site about Sandwich Sudoku",
+  "main": "index.js",
+  "scripts": {
+      "now-build": "node ./buildListing.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "url": "^0.11.0"
+  }
+}

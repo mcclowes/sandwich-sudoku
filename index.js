@@ -1,9 +1,5 @@
-<html>
-  <head>
-
-  </head>
-
-  <body>
+const home = () => {
+  return (
     <h1>Sandwich Sudoku</h1>
 
     <h2>What is a Sandwich Sudoku</h2>
@@ -303,7 +299,7 @@
     </ul>
 
     <h3>6x6 Sandiwch Sudoku -> 1-6</h3>
-    
+
     <h4>0</h4>
 
     <p>The 1 and 6 are adjacent</p>
@@ -332,7 +328,7 @@
       <li>2, 3</li>
       <li>5</li>
     </ul>
-    
+
     <h4>6</h4>
 
     <ul>
@@ -377,5 +373,7 @@
     <ul>
       <li>2, 3, 4, 5</li>
     </ul>
-  </body>
-</html>
+  )
+}
+
+export default home
