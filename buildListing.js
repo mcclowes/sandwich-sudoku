@@ -9,6 +9,7 @@ const renderSite = (page) => `
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sandwich Sudoku</title>
     <meta name="description" content="A site about a Sudoku variant" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   
   <body>

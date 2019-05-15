@@ -21,355 +21,451 @@ module.exports = `
 
   <h3>9x9 Sandiwch Sudoku -> 1-9</h3>
 
-  <h4>0</h4>
-
-  <p>The 1 and 9 are adjacent</p>
-
-  <h4>2</h4>
-
-  <ul>
-    <li>2</li>
-  </ul>
-
-  <h4>3</h4>
-
-  <ul>
-    <li>3</li>
-  </ul>
-
-  <h4>4</h4>
-
-  <ul>
-    <li>4</li>      
-  </ul>
-
-  <h4>5</h4>
-
-  <ul>
-    <li>2, 3</li>
-    <li>5</li>
-  </ul>
-
-  <h4>6</h4>
-
-  <ul>
-    <li>2, 4</li>
-    <li>6</li>
-  </ul>
-
-  <h4>7</h4>
-
-  <ul>
-    <li>2, 5</li>
-    <li>3, 4</li>
-    <li>7</li>
-  </ul>
-
-  <h4>8</h4>
-
-  <ul>
-    <li>2, 6</li>
-    <li>3, 5</li>
-    <li>8</li>
-  </ul>
-
-  <h4>9</h4>
-
-  <ul>
-    <li>2, 3, 4</li>
-    <li>2, 7</li>
-    <li>3, 6</li>
-    <li>4, 5</li>
-    <li>9</li>
-  </ul>
-
-  <h4>10</h4>
-
-  <ul>
-    <li>2, 3, 5</li>
-    <li>2, 8</li>
-    <li>3, 7</li>
-    <li>4, 6</li>
-  </ul>
-
-  <h4>11</h4>
-
-  <ul>
-    <li>2, 3, 6</li>
-    <li>2, 4, 5</li>
-    <li>3, 8</li>
-    <li>4, 7</li>
-    <li>5, 6</li>
-  </ul>
-
-  <h4>12</h4>
-
-  <ul>
-    <li>2, 3, 7</li>
-    <li>2, 4, 6</li>
-    <li>4, 8</li>
-    <li>5, 7</li>
-  </ul>
-
-  <h4>13</h4>
-
-  <ul>
-    <li>2, 3, 8</li>
-    <li>2, 4, 7</li>
-    <li>2, 5, 6</li>
-    <li>3, 4, 6</li>
-    <li>6, 7</li>
-  </ul>
-
-  <h4>14</h4>
-
-  <ul>
-    <li>2, 3, 4, 5</li>
-    <li>2, 4, 8</li>
-    <li>2, 5, 7</li>
-    <li>3, 4, 7</li>
-    <li>3, 5, 6</li>
-    <li>6, 8</li>
-  </ul>
-
-  <h4>15</h4>
-
-  <ul>
-    <li>2, 3, 4, 6</li>
-    <li>3, 4, 8</li>
-    <li>3, 5, 7</li>
-    <li>4, 5, 6</li>
-  </ul>
-
-  <h4>16</h4>
-
-  <ul>
-    <li>2, 3, 4, 7</li>
-    <li>2, 3, 5, 6</li>
-    <li>3, 5, 8</li>
-    <li>3, 6, 7</li>
-    <li>4, 5, 7</li>
-  </ul>
-
-  <h4>17</h4>
-
-  <ul>
-    <li>2, 3, 4, 8</li>
-    <li>2, 3, 5, 7</li>
-    <li>3, 6, 8</li>
-    <li>4, 5, 8</li>
-    <li>4, 6, 7</li>
-  </ul>
-
-  <h4>18</h4>
-
-  <ul>
-    <li>2, 3, 5, 8</li>
-    <li>2, 4, 5, 7</li>
-    <li>3, 7, 8</li>
-    <li>4, 6, 8</li>
-    <li>5, 6, 7</li>
-  </ul>
-
-  <h4>19</h4>
-
-  <ul>
-    <li>2, 3, 6, 8</li>
-    <li>2, 4, 5, 8</li>
-    <li>3, 4, 5, 7</li>
-    <li>4, 7, 8</li>
-    <li>5, 6, 8</li>
-  </ul>
-
-  <h4>20</h4>
-
-  <ul>
-    <li>2, 3, 4, 5, 6</li>
-    <li>3, 4, 5, 8</li>
-    <li>3, 4, 6, 7</li>
-    <li>5, 7, 8</li>
-  </ul>
-
-  <h4>21</h4>
-
-  <ul>
-    <li>2, 3, 4, 5, 7</li>
-    <li>3, 4, 6, 8</li>
-    <li>3, 5, 6, 7</li>
-    <li>6, 7, 8</li>
-  </ul>
-
-  <h4>22</h4>
-
-  <ul>
-    <li>2, 3, 4, 5, 8</li>
-    <li>2, 3, 4, 6, 7</li>
-    <li>2, 5, 7, 8</li>
-    <li>3, 4, 7, 8</li>
-    <li>3, 5, 6, 8</li>
-  </ul>
-
-  <h4>23</h4>
-
-  <ul>
-    <li>2, 3, 4, 6, 8</li>
-    <li>2, 3, 5, 6, 7</li>
-    <li>2, 6, 7, 8</li>
-    <li>3, 5, 7, 8</li>
-    <li>4, 5, 6, 8</li>
-  </ul>
-
-  <h4>24</h4>
-
-  <ul>
-    <li>2, 3, 4, 7, 8</li>
-    <li>2, 3, 5, 6, 8</li>
-    <li>3, 6, 7, 8</li>
-  </ul>
-
-  <h4>25</h4>
-
-  <ul>
-    <li>2, 3, 5, 7, 8</li>
-    <li>2, 4, 5, 6, 8</li>
-    <li>3, 4, 5, 6, 7</li>
-    <li>4, 6, 7, 8</li>
-  </ul>
-
-  <h4>26</h4>
-
-  <ul>
-    <li>2, 3, 6, 7, 8</li>
-    <li>2, 4, 5, 7, 8</li>
-    <li>3, 4, 5, 6, 8</li>
-    <li>5, 6, 7, 8</li>
-  </ul>
-
-  <h4>27</h4>
-
-  <ul>
-    <li>2, 3, 4, 5, 6, 7</li>
-    <li>3, 4, 5, 7, 8</li>
-  </ul>
-
-  <h4>28</h4>
-
-  <ul>
-    <li>2, 3, 4, 5, 6, 8</li>
-    <li>3, 4, 6, 7, 8</li>
-  </ul>
-
-  <h4>29</h4>
-
-  <ul>
-    <li>2, 3, 4, 5, 7, 8</li>
-    <li>3, 5, 6, 7, 8</li>
-  </ul>
-
-  <h4>30</h4>
-
-  <ul>
-    <li>2, 3, 4, 6, 7, 8</li>
-    <li>4, 5, 6, 7, 8</li>
-  </ul>
-
-  <h4>31</h4>
-
-  <ul>
-    <li>2, 3, 5, 6, 7, 8</li>
-  </ul>
-
-  <h4>32</h4>
-
-  <ul>
-    <li>2, 4, 5, 6, 7, 8</li>
-  </ul>
-
-  <h4>33</h4>
-
-  <ul>
-    <li>3, 4, 5, 6, 7, 8</li>
-  </ul>
-
-  <h4>35</h4>
-
-  <ul>
-    <li>2, 3, 4, 5, 6, 7, 8</li>
-  </ul>
-
-  <h3>6x6 Sandiwch Sudoku -> 1-6</h3>
-
-  <h4>0</h4>
-
-  <p>The 1 and 6 are adjacent</p>
-
-  <h4>2</h4>
-
-  <ul>
-    <li>2</li>
-  </ul>
-
-  <h4>3</h4>
-
-  <ul>
-    <li>3</li>
-  </ul>
-
-  <h4>4</h4>
-
-  <ul>
-    <li>4</li>
-  </ul>
-
-  <h4>5</h4>
-
-  <ul>
-    <li>2, 3</li>
-    <li>5</li>
-  </ul>
-
-  <h4>6</h4>
-
-  <ul>
-    <li>2, 4</li>
-    <li>6</li>
-  </ul>
-
-  <h4>7</h4>
-
-  <ul>
-    <li>2, 5</li>
-    <li>3, 4</li>
-  </ul>
-
-  <h4>8</h4>
-
-  <ul>
-    <li>3, 5</li>
-  </ul>
-
-  <h4>9</h4>
-
-  <ul>
-    <li>2, 3, 4</li>
-    <li>4, 5</li>
-  </ul>
-
-  <h4>10</h4>
-
-  <ul>
-    <li>2, 3, 5</li>
-  </ul>
-
-  <h4>11</h4>
-
-  <ul>
-    <li>2, 4, 5</li>
-  </ul>
-
-  <h4>14</h4>
-
-  <ul>
-    <li>2, 3, 4, 5</li>
-  </ul>
+  <div class="grid">
+    <div class="grid-cell">
+      <h4>0</h4>
+
+      <p>The 1 and 9 are adjacent</p>
+    </div>
+
+    <div class="grid-cell">
+      <h4>2</h4>
+
+      <ul>
+        <li>2</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>3</h4>
+
+      <ul>
+        <li>3</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>4</h4>
+
+      <ul>
+        <li>4</li>      
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>5</h4>
+
+      <ul>
+        <li>2, 3</li>
+        <li>5</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>6</h4>
+
+      <ul>
+        <li>2, 4</li>
+        <li>6</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>7</h4>
+
+      <ul>
+        <li>2, 5</li>
+        <li>3, 4</li>
+        <li>7</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>8</h4>
+
+      <ul>
+        <li>2, 6</li>
+        <li>3, 5</li>
+        <li>8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>9</h4>
+
+      <ul>
+        <li>2, 3, 4</li>
+        <li>2, 7</li>
+        <li>3, 6</li>
+        <li>4, 5</li>
+        <li>9</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>10</h4>
+
+      <ul>
+        <li>2, 3, 5</li>
+        <li>2, 8</li>
+        <li>3, 7</li>
+        <li>4, 6</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>11</h4>
+
+      <ul>
+        <li>2, 3, 6</li>
+        <li>2, 4, 5</li>
+        <li>3, 8</li>
+        <li>4, 7</li>
+        <li>5, 6</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>12</h4>
+
+      <ul>
+        <li>2, 3, 7</li>
+        <li>2, 4, 6</li>
+        <li>4, 8</li>
+        <li>5, 7</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>13</h4>
+
+      <ul>
+        <li>2, 3, 8</li>
+        <li>2, 4, 7</li>
+        <li>2, 5, 6</li>
+        <li>3, 4, 6</li>
+        <li>6, 7</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>14</h4>
+
+      <ul>
+        <li>2, 3, 4, 5</li>
+        <li>2, 4, 8</li>
+        <li>2, 5, 7</li>
+        <li>3, 4, 7</li>
+        <li>3, 5, 6</li>
+        <li>6, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>15</h4>
+
+      <ul>
+        <li>2, 3, 4, 6</li>
+        <li>3, 4, 8</li>
+        <li>3, 5, 7</li>
+        <li>4, 5, 6</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>16</h4>
+
+      <ul>
+        <li>2, 3, 4, 7</li>
+        <li>2, 3, 5, 6</li>
+        <li>3, 5, 8</li>
+        <li>3, 6, 7</li>
+        <li>4, 5, 7</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>17</h4>
+
+      <ul>
+        <li>2, 3, 4, 8</li>
+        <li>2, 3, 5, 7</li>
+        <li>3, 6, 8</li>
+        <li>4, 5, 8</li>
+        <li>4, 6, 7</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>18</h4>
+
+      <ul>
+        <li>2, 3, 5, 8</li>
+        <li>2, 4, 5, 7</li>
+        <li>3, 7, 8</li>
+        <li>4, 6, 8</li>
+        <li>5, 6, 7</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>19</h4>
+
+      <ul>
+        <li>2, 3, 6, 8</li>
+        <li>2, 4, 5, 8</li>
+        <li>3, 4, 5, 7</li>
+        <li>4, 7, 8</li>
+        <li>5, 6, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>20</h4>
+
+      <ul>
+        <li>2, 3, 4, 5, 6</li>
+        <li>3, 4, 5, 8</li>
+        <li>3, 4, 6, 7</li>
+        <li>5, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>21</h4>
+
+      <ul>
+        <li>2, 3, 4, 5, 7</li>
+        <li>3, 4, 6, 8</li>
+        <li>3, 5, 6, 7</li>
+        <li>6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>22</h4>
+
+      <ul>
+        <li>2, 3, 4, 5, 8</li>
+        <li>2, 3, 4, 6, 7</li>
+        <li>2, 5, 7, 8</li>
+        <li>3, 4, 7, 8</li>
+        <li>3, 5, 6, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>23</h4>
+
+      <ul>
+        <li>2, 3, 4, 6, 8</li>
+        <li>2, 3, 5, 6, 7</li>
+        <li>2, 6, 7, 8</li>
+        <li>3, 5, 7, 8</li>
+        <li>4, 5, 6, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>24</h4>
+
+      <ul>
+        <li>2, 3, 4, 7, 8</li>
+        <li>2, 3, 5, 6, 8</li>
+        <li>3, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>25</h4>
+
+      <ul>
+        <li>2, 3, 5, 7, 8</li>
+        <li>2, 4, 5, 6, 8</li>
+        <li>3, 4, 5, 6, 7</li>
+        <li>4, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>26</h4>
+
+      <ul>
+        <li>2, 3, 6, 7, 8</li>
+        <li>2, 4, 5, 7, 8</li>
+        <li>3, 4, 5, 6, 8</li>
+        <li>5, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>27</h4>
+
+      <ul>
+        <li>2, 3, 4, 5, 6, 7</li>
+        <li>3, 4, 5, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>28</h4>
+
+      <ul>
+        <li>2, 3, 4, 5, 6, 8</li>
+        <li>3, 4, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>29</h4>
+
+      <ul>
+        <li>2, 3, 4, 5, 7, 8</li>
+        <li>3, 5, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>30</h4>
+
+      <ul>
+        <li>2, 3, 4, 6, 7, 8</li>
+        <li>4, 5, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>31</h4>
+
+      <ul>
+        <li>2, 3, 5, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>32</h4>
+
+      <ul>
+        <li>2, 4, 5, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>33</h4>
+
+      <ul>
+        <li>3, 4, 5, 6, 7, 8</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>35</h4>
+
+      <ul>
+        <li>2, 3, 4, 5, 6, 7, 8</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="grid">
+    <h3>6x6 Sandiwch Sudoku -> 1-6</h3>
+
+    <div class="grid-cell">
+      <h4>0</h4>
+
+      <p>The 1 and 6 are adjacent</p>
+    </div>
+
+    <div class="grid-cell">
+      <h4>2</h4>
+
+      <ul>
+        <li>2</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>3</h4>
+
+      <ul>
+        <li>3</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>4</h4>
+
+      <ul>
+        <li>4</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>5</h4>
+
+      <ul>
+        <li>2, 3</li>
+        <li>5</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>6</h4>
+
+      <ul>
+        <li>2, 4</li>
+        <li>6</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>7</h4>
+
+      <ul>
+        <li>2, 5</li>
+        <li>3, 4</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>8</h4>
+
+      <ul>
+        <li>3, 5</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>9</h4>
+
+      <ul>
+        <li>2, 3, 4</li>
+        <li>4, 5</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>10</h4>
+
+      <ul>
+        <li>2, 3, 5</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>11</h4>
+
+      <ul>
+        <li>2, 4, 5</li>
+      </ul>
+    </div>
+
+    <div class="grid-cell">
+      <h4>14</h4>
+
+      <ul>
+        <li>2, 3, 4, 5</li>
+      </ul>
+    </div>
+  </div>
 `
